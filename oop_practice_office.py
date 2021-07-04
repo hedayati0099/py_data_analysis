@@ -49,5 +49,13 @@ for i in range(8):
 
 print(human.count)
 
+# also you can get new employee's info
+
+for i in range(2):
+    b = employee(input('name?'),int(input('age?')),int(input('number?')),input('gender?'))
+    b.salary = int(input('salary?'))
+    print(b)
+
+
 
 # you may have 8 people's info in your output
