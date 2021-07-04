@@ -48,6 +48,8 @@ for i in range(8):
     print(a)
 
 print(human.count)
+# you may have 8 people's info in your output
+
 
 # also you can get new employee's info
 
@@ -58,4 +60,4 @@ for i in range(2):
 
 
 
-# you may have 8 people's info in your output
+# you may have 10 people's info in your output
