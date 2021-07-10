@@ -1,4 +1,5 @@
-# %%
+# here is .py file of dataanalyst_simple.ipynb
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
