@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_excel('file_example_XLSX_100.xlsx')   # an example data that have some information about people in france & united states and great britain
+df = pd.read_excel('file_example_XLSX_100.xlsx')   # an example excel data that have some information about people in france and united states and great britain
 df['Date'] = pd.to_datetime(df['Date'])                   # my data have 100 rows and 8 columns
 
 count_us = 0    # count of people in united stats
